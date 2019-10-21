@@ -1,7 +1,7 @@
 pipeline {
     environment {
-        APP_NAME = 'test-project'
-        APP_VERSION  = '1.0.2'
+        APP_NAME = 'spring-boot-docker-example'
+        APP_VERSION  = 'laster'
     }
     agent {
         docker {
